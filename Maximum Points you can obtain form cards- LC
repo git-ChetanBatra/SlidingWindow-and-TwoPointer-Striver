@@ -1,5 +1,4 @@
-class Solution {
-public:
+
     int maxScore(vector<int>& cardPoints, int k) {
         int n=cardPoints.size();
 
@@ -20,4 +19,4 @@ public:
         
         return maxSum;
     }
-};
+
